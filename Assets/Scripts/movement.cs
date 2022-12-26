@@ -13,8 +13,8 @@ public class movement : MonoBehaviour
 
     private void Awake() //køre en gang når noget specielt sker i det her tilfælde er det bare når programmet starter
     {
-        myBody = GetComponent<Rigidbody2D>(); //Vi giver vores myBody rigidbody2d componentet fra unity så vi kan ændre dens værdiger i koden så vores gut kan bevæge sig
-        myAnimator = GetComponent<Animator>(); //Vi giver vores myAnimator Animator componentet fra unity så vi kan ændre dens værdiger i koden så vores gut kan bevæge sig
+        myBody = GetComponent<Rigidbody2D>(); //Vi giver vores myBody Rigidbody2D componentet fra unity så vi kan ændre dens værdiger i koden så hvad end det her script sider på kan bevæge sig
+        myAnimator = GetComponent<Animator>(); //Vi giver vores myAnimator Animator componentet fra unity så vi kan ændre dens værdiger i koden så hvad end det her script sider på kan bevæge sig
 
     }
     private void OnMovement(InputValue value) //En private void der modtager et parameter som er baseret på Unities Input system og bruger den value som den sender til at få gutten til at bevæge sig

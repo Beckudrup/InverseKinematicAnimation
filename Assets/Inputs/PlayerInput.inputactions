@@ -13,15 +13,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "RestartGame",
-                    "type": "Button",
-                    "id": "25ac996e-f25d-41e0-9f2d-9090b1d40fd1",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -79,17 +70,6 @@
                     "action": "Movement",
                     "isComposite": false,
                     "isPartOfComposite": true
-                },
-                {
-                    "name": "",
-                    "id": "07142e94-7fdd-48da-995d-81cab72deafd",
-                    "path": "<Keyboard>/r",
-                    "interactions": "Tap",
-                    "processors": "",
-                    "groups": "",
-                    "action": "RestartGame",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         }
